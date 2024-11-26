@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Tahoma, Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 600px;
+    background: #eee;
+    padding: 20px;
+    margin: 100px auto;
+    border-radius: 5px;
+}
+
+input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 15px;
+    font-size: 20px;
+    caret-color: #009688;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+input:focus {
+    border: 2px solid #009688;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    padding:10px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background: #009688;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.results div {
+    background: #fff;
+    padding: 15px;
+}
+
+.results div span {
+    color: #009688;
+    font-weight: bold;
+}
+
+.none {
+    display: none;
+}
+
+.addValue {
+    width: 100%;
+}
